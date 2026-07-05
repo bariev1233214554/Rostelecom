@@ -17,8 +17,7 @@ def test_successful_reg(browser, credentials):
     password = credentials["password"]
     name = credentials["name"]
     family = credentials["family"]
-    phone = credentials["phone"]
-    region = credentials["region"]
+    phone = credentials["phone"] 
 
 
     browser.get("https://b2c.passport.rt.ru/")
