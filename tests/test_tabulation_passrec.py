@@ -46,13 +46,13 @@ def test_successful_tps(browser, credentials):
 
     #Проверяет типы аутентификации
 
-    tst_tabulation(browser,phone, "//span[contains(text(), 'Мобильный телефон')]")
+    tst_tabulation_pr(browser,phone, "//span[contains(text(), 'Мобильный телефон')]")
     print("Тест Мобильный телефон: ОК ")
-    tst_tabulation(browser, email, "//span[contains(text(), 'Электронная почта')]")
+    tst_tabulation_pr(browser, email, "//span[contains(text(), 'Электронная почта')]")
     print("Тест Электронная почта: ОК")
-    tst_tabulation(browser,login, "//span[contains(text(), 'Логин')]")
+    tst_tabulation_pr(browser,login, "//span[contains(text(), 'Логин')]")
     print("Тест Логин: ОК")
-    tst_tabulation(browser,chet, "//span[contains(text(), 'Лицевой счёт')]")
+    tst_tabulation_pr(browser,chet, "//span[contains(text(), 'Лицевой счёт')]")
     print("Тест Лицевой счёт: ОК")
 
 
